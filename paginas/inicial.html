@@ -5,9 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio</title>
     <link rel="stylesheet" href="../estilo/style.css">
-    <link rel="stylesheet" href="../estilo/medias-queries.css">
-    <script defer type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script defer nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <script defer src="../js/script.js"></script>
 </head>
 <body>
@@ -15,35 +13,39 @@
         <video autoplay muted loop id="background-video">
             <source src="../imagens/1118472_Macro_4k_1280x720.mp4" type="video/mp4">
             Seu navegador não suporta a tag de vídeo.
-        </video> 
-        <div class="content">
-            <p>Oi! Me chamo <span>Lucas.</span> <br>
-                Seja bem vindo ao meu Portfólio!</p>
+        </video>
         </div>
+        <header>
+            <div class="titulo">
+                Oi! Me chamo <span>Lucas.</span> <br>
+                    Seja bem vindo ao meu Portfólio!
+            </div>
+            <div class="Animated-Radial-Menu">
+                <ul class="menu">
 
-        <div class="Animated-Radial-Menu">
-            <ul class="menu">
-                <div class="toggle"><ion-icon name="home-outline"></ion-icon></div>
-                <li style="--i: 2; --clr: #00b7ff;">
-                    <a href="#">
-                        <ion-icon name="albums-outline"></ion-icon>
-                    </a>
-                </li>
-        
-                <li style="--i: 4.5; --clr: #00b7ff;">
-                    <a href="#">
-                        <ion-icon name="person-outline"></ion-icon>
-                    </a>
-                </li>
-        
-                <li style="--i: 7.5; --clr: #00b7ff;">
-                    <a href="#">
-                        <ion-icon name="chatbox-outline" ></ion-icon>
-                    </a>
-                </li>
-        
-            </ul>
-        </div>
-    </div>
+                    <div class="toggle">
+                        <i class="material-symbols-outlined">home</i>
+                    </div>
+
+                    <li style="--i: 2; --clr: #fff; ">
+                        <a href="projetos.html" title="projetos" target="_blank">
+                            <i class="material-symbols-outlined" >design_services</i>
+                        </a>
+                    </li>
+            
+                    <li style="--i: 4.5; --clr: #fff;">
+                        <a href="sobre.html" title="sobre mim" target="_blank">
+                            <i class="material-symbols-outlined">person</i>
+                        </a>
+                    </li>
+            
+                    <li style="--i: 7.5; --clr: #fff;">
+                        <a href="contato.html" title="contato" target="_blank">
+                            <i class="material-symbols-outlined">chat</i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
 </body>
 </html>
