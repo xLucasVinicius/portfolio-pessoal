@@ -36,11 +36,10 @@ h1#titulo {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    overflow: hidden;
 }
 
 div.card-cursos {
-    margin: 10px;
+    margin: 15px;
     width: 210px;
     height: 250px;
     display: flex;
@@ -91,8 +90,8 @@ div.card-cursos {
 }
 
 .sobre-mim p {
-    padding: 3%;
-    font-size: 1.5em;
+    padding: 5px;
+    font-size: 1.2em;
     color: rgb(173, 163, 163);
-    text-align: start;
+    text-align: left;
 }
