@@ -36,7 +36,7 @@ h1#titulo {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-
+    overflow: hidden;
 }
 
 div.card-cursos {
