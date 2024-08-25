@@ -40,7 +40,7 @@ h1#titulo {
 }
 
 div.card-cursos {
-    margin: 20px;
+    margin: 15px;
     width: 210px;
     height: 250px;
     display: flex;
@@ -94,5 +94,5 @@ div.card-cursos {
     padding: 3%;
     font-size: 1.5em;
     color: rgb(173, 163, 163);
-    text-align: justify;
+    text-align: start;
 }
