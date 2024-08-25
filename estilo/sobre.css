@@ -1,1 +1,98 @@
 @charset "UTF-8";
+
+:root {
+    --cor001: #020124;
+    --cor002: #29314D;
+    --cor003: #3E4C7A;
+    --cor004: #1B3280;
+    --cor005: #284CBF;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    
+
+    background-color: var(--cor001);
+}
+
+h1#titulo {
+    margin: 10px;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 3em;
+    color: aqua;
+}
+
+.cursos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+
+}
+
+div.card-cursos {
+    margin: 20px;
+    width: 210px;
+    height: 250px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(0, 255, 255, 0.589);
+}
+
+.card-cursos img {
+    height: 50px;
+    width: 50px;
+}
+
+.card-cursos h1 {
+    color: aqua;
+
+}
+
+.card-cursos p {
+    color: rgb(173, 163, 163);
+    text-align: center;
+}
+
+.btn-cert {
+    width: 180px;
+    height: 30px;
+    border-radius: 25px;
+    font-size: 1em;
+    border: 2px solid #1c7ce2;
+    background-color: transparent;
+}
+
+.btn-cert a {
+    text-decoration: none;
+    color: #1c7ce2;
+    
+}
+
+.btn-cert:hover {
+    background-color: #1c7ce2;
+}
+
+.btn-cert:hover a {
+    background-color: #1c7ce2;
+    color: white;
+}
+
+.sobre-mim p {
+    padding: 3%;
+    font-size: 1.5em;
+    color: rgb(173, 163, 163);
+    text-align: justify;
+}
