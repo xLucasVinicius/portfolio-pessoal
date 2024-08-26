@@ -77,7 +77,7 @@ span {
   filter: drop-shadow(10px 7px 10px aqua);
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width:816px) {
   p {
     min-width: 300px;
     max-width: 1300px;
@@ -99,16 +99,6 @@ span {
 
   .Animated-Radial-Menu {
     overflow: hidden;
-  }
-}
-
-@media screen and (min-width: 401px) and (max-width:816px) {
-  .inicio-titulo {
-    flex-flow: row wrap;
-  }
-
-  p {
-    font-size: 2.9em;
   }
 }
 
