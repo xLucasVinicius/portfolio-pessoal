@@ -133,8 +133,9 @@ p {
     background: transparent;
     overflow: hidden;
   }
-
+  
   .Animated-Radial-Menu .menu {
+    overflow: hidden;
     position: relative;
     width: 280px;
     height: 280px;
