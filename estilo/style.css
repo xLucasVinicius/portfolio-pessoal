@@ -120,6 +120,8 @@ span {
   p {
     font-size: 2.5em;
     padding: 40px;
+    text-align: center;
+    color: white;
   }
 }
 
