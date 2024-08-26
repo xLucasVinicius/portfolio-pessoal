@@ -73,7 +73,7 @@ span {
 
 
 .img-perfil img {
-  width: 35vh;
+  width: 30vh;
   filter: drop-shadow(10px 7px 10px aqua);
 }
 
@@ -92,8 +92,8 @@ span {
 }
 
   .img-perfil img {
-    width: 25vh;
-    padding-top: 15px;
+    width: 20vh;
+    padding-top: 5px;
     align-self: center;
   }
 
@@ -106,7 +106,7 @@ span {
 @media screen and (min-width: 760px) and (max-width: 1200px){
   p {
     font-size: 2.5em;
-    padding-left: 35px;
+    padding-left: 30px;
   }
 
   .inicio-titulo {
