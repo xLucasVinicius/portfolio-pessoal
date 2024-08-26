@@ -141,6 +141,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid red;
   }
 
   .Animated-Radial-Menu .menu .toggle {
