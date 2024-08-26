@@ -112,6 +112,10 @@ span {
   .inicio-titulo {
     flex-flow: row wrap;
   }
+
+  .Animated-Radial-Menu {
+    overflow: hidden;
+  }
 }
 
 @media screen and (min-width: 401px){
@@ -122,6 +126,10 @@ p {
   text-align: center;
   font-size: 3em;
   color: white;
+}
+
+.Animated-Radial-Menu {
+  overflow: hidden;
 }
 }
 
@@ -135,14 +143,12 @@ p {
   }
   
   .Animated-Radial-Menu .menu {
-    overflow: hidden;
     position: relative;
     width: 280px;
     height: 280px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
   }
 
   .Animated-Radial-Menu .menu .toggle {
