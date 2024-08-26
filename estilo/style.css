@@ -106,13 +106,13 @@ span {
 }
 }
 
-@media screen and (min-height: 1200px) {
+@media screen and (min-height: 1000px) {
   .inicio-titulo {
-    margin-top: 20%;
+    margin-top: 15%;
   }
   
     .Animated-Radial-Menu {
-    margin-top: 20%;
+    margin-top: 15%;
   }
 }
 
