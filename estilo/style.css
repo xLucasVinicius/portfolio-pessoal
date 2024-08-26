@@ -72,7 +72,7 @@ span {
 
 
 .img-perfil img {
-  width: 30vh;
+  width: 35vh;
   filter: drop-shadow(10px 7px 10px aqua);
 }
 
@@ -80,7 +80,7 @@ span {
   p {
     min-width: 300px;
     max-width: 1300px;
-    padding: 10px;
+    padding: 15px;
     text-align: center;
     font-size: 1.5em;
     color: white;
@@ -91,7 +91,7 @@ span {
 }
 
   .img-perfil img {
-    width: 20vh;
+    width: 25vh;
     padding-top: 5px;
     align-self: center;
   }
