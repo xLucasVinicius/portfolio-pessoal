@@ -131,7 +131,7 @@ p {
     display: flex;
     justify-content: center;
     background: transparent;
-    
+    overflow: hidden;
   }
 
   .Animated-Radial-Menu .menu {
