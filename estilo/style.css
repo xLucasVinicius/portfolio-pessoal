@@ -96,7 +96,7 @@ span {
   }
 }
 
-@media screen and (min-height: 800px) and (max-height: 850px) {
+@media screen and (min-height: 500px) and (max-height: 850px) {
 .inicio-titulo {
   margin-top: 20%;
 }
