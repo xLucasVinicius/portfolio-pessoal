@@ -42,109 +42,52 @@ html, body {
 
 header {
   width: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
   
 }
 
-span {
-    color: blue;
-}
+span {color: blue;}
 
-.inicio-titulo {
+.container-titulo-sticker {
   display: flex;
   z-index: 1;
-  flex-flow: row nowrap;
-  justify-content: center;
-}
-
-.titulo {
-  width: 70%;
-  height: 30%;
-  z-index: 1;
-  align-self: center;
-  display: flex;
+  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
 }
 
+.titulo {
+  font-size: 2rem;
+  padding: 5%;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 3px 5px aqua;
+}
+
 
 .img-perfil img {
-  width: 35vh;
-  filter: drop-shadow(10px 7px 10px aqua);
+  display: block;
+  position: relative;
+  width: 30vh;
+  margin: 10% auto ;
+  filter: drop-shadow(-1px 0px 8px aqua);
+
+  animation: flutuar 1.5s ease-in-out infinite alternate;
 }
 
-@media screen and (max-width:816px) {
-  p {
-    min-width: 300px;
-    max-width: 1300px;
-    padding: 15px;
-    text-align: center;
-    font-size: 1.7em;
-    color: white;
+@keyframes flutuar {
+  0%{
+    top: 0px;
   }
-
-.inicio-titulo {
-  flex-flow: row wrap;
-}
-
-  .img-perfil img {
-    width: 25vh;
-    padding-top: 20px;
-    align-self: center;
+  100%{
+    top: 30px;
   }
 }
 
-@media screen and (min-height: 500px) and (max-height: 850px) {
-.inicio-titulo {
-  margin-top: 20%;
-}
-
-  .Animated-Radial-Menu {
-  margin-top: 20%;
-}
-}
-
-@media screen and (min-height: 1000px) {
-  .inicio-titulo {
-    margin-top: 15%;
-  }
-  
-    .Animated-Radial-Menu {
-    padding-top: 25%;
-  }
-}
-
-@media screen and (min-width: 817px) and (max-width: 1100px){
-  p {
-    font-size: 2.5em;
-    padding-top: 10px;
-    text-align: center;
-    color: white;
-  }
-
-  .Animated-Radial-Menu {
-    margin-top: 10px;
-  }
-}
-
-@media screen and (min-width: 1200px){
-  .inicio-titulo {
-    margin-top: 100px;
-  }
-
-p {
-  text-align: center;
-  font-size: 2.9em;
-  color: white;
-}
-
-.Animated-Radial-Menu .menu {
-  margin-top: 10%;
-}
-}
-
+/* NÃO MEXER */
 .Animated-Radial-Menu {
     display: flex;
     justify-content: center;
@@ -154,14 +97,14 @@ p {
   .Animated-Radial-Menu .menu {
     position: relative;
     width: 280px;
-    height: 120px;
-    padding-top: 100px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-
+  
   .Animated-Radial-Menu .menu .toggle {
+  
     position: absolute;
     width: 60px;
     height: 60px;
