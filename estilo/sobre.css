@@ -62,7 +62,7 @@ html, body {
 }
 
 .nav-bar ul li a:hover {
-    background-color: #0b1d61;
+    background-color: #061446;
 }
 
 i#menu-hb {
@@ -171,5 +171,4 @@ div.card-cursos {
     margin: auto;
     color: rgb(173, 163, 163);
     text-align: left;
-    border: 1px solid red;
 }
