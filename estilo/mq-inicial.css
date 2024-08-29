@@ -2,22 +2,29 @@
 
 @media screen and (max-width: 340px){ /* Telas pequenas */
       .titulo {
-        font-size: 1.3rem;
-        text-shadow: 1px 1px 3px aqua;
+        font-size: 1.5rem;
+        margin-top: 3vh;
+        padding: 0 20%; 
       }
   
       .img-perfil img {
         margin: auto;
       }
+
+      .Animated-Radial-Menu {
+        padding-top: 25%;
+      }
   }
 
-@media screen and (min-width: 769px ) and (max-width: 1200px){  /* Tablets */
+@media screen and (min-width: 768px ) and (max-width: 1200px){  /* Tablets */
     .container-titulo-sticker {
         flex-flow: row wrap;
     }
 
     .titulo {
-        font-size: 3rem;
+        font-size: 2.4rem;
+        padding: 15% 3%;
+        margin-top: 5vh;
     }
     }
 
@@ -33,7 +40,7 @@
       
       .titulo {
         font-size: 3.3rem;
-        padding: 0% 3% 3% 3%;
+        padding: 3%;
         text-align: center;
         color: white;
       }
@@ -45,4 +52,15 @@
         margin: 10% auto ;
         filter: drop-shadow(0px 5px 10px aqua);
       }
+}
+
+@media screen and (max-height: 420px) {
+  .titulo {
+    font-size: 2rem;
+    padding: 1%;
+  }
+
+  .Animated-Radial-Menu {
+    padding-top: 0;
+  }
 }

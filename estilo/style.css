@@ -1,5 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+
 
 :root {
     --cor001: #020124;
@@ -12,7 +14,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "New Amsterdam", sans-serif;
   box-sizing: border-box;
 }
 
@@ -42,14 +44,14 @@ html, body {
 
 header {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   
 }
 
-span {color: blue;}
+ span {color: blue;} 
 
 .container-titulo-sticker {
   display: flex;
@@ -61,18 +63,20 @@ span {color: blue;}
 
 .titulo {
   font-size: 2rem;
-  padding: 3%;
+  padding: 20%;
   text-align: center;
   color: white;
-  text-shadow: 1px 3px 5px aqua;
+  
 }
 
 
 .img-perfil img {
   display: block;
   position: relative;
-  width: 30vh;
-  margin: 10% auto ;
+  width: 50%;
+  margin: 1% auto ;
+  padding-top: 1%;
+
   filter: drop-shadow(-1px 0px 8px aqua);
 
   animation: flutuar 1.5s ease-in-out infinite alternate;
@@ -92,12 +96,13 @@ span {color: blue;}
     display: flex;
     justify-content: center;
     background: transparent;
+    padding-top: 8vh;
   }
   
   .Animated-Radial-Menu .menu {
     position: relative;
     width: 280px;
-    height: 200px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
