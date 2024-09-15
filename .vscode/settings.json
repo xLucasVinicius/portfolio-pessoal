@@ -1,5 +1,6 @@
 {
     "git.confirmSync": false,
+    "git.autofetch": true,
     "git.enableSmartCommit": true,
     "editor.wordWrap": "on",
     "workbench.iconTheme": "material-icon-theme",
@@ -25,5 +26,7 @@
     "editor.minimap.enabled": false,
     "editor.scrollbar.horizontal": "hidden",
     "editor.scrollbar.vertical":"hidden",
-    "vscode_custom_css.imports": ["file:///C:/Users/lucas/.vscode/vscode_style/vscode_style.css"],
+    "vscode_custom_css.imports": [
+        "file:///C:/Users/lucas/.vscode/vscode_style/vscode_style.css"
+    ],
 }
