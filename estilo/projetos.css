@@ -1,1 +1,16 @@
 @charset "UTF-8";
+
+:root {
+    --cor001: #020124;
+    --cor002: #29314D;
+    --cor003: #3E4C7A;
+    --cor004: #1B3280;
+    --cor005: #284CBF;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "New Amsterdam", sans-serif;
+    box-sizing: border-box;
+}
